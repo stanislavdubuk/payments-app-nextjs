@@ -22,10 +22,7 @@ interface FormInputProps {
 export const FormInput = ({ type, value, onChange }: FormInputProps) => {
   const label = getLabels(type);
 
-  const handleInput = (
-    e: React.FormEvent<HTMLDivElement>,
-    maxLength: number
-  ) => {
+  const handleInput = (e: any, maxLength: number) => {
     const input = (e.target.value = Math.max(0, parseInt(e.target.value))
       .toString()
       .slice(0, maxLength));

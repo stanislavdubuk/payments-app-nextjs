@@ -1,0 +1,10 @@
+.root {
+  border: none;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: var(--border-color);
+    background-image: none;
+    cursor: initial;
+  }
+}

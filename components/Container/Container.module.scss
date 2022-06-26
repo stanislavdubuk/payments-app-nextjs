@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  height: 100vh;
+
+  padding: 40px 0px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}

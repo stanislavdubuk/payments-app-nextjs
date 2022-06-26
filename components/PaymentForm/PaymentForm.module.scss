@@ -1,0 +1,62 @@
+.root {
+  border: 1px solid var(--border-color);
+  background-color: white;
+
+  border-radius: 10px;
+  width: 324px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+
+  height: 80px;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.bottom {
+  padding: 40px;
+  padding-top: 0;
+  width: 100%;
+}
+
+.inputContainer {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.shortInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(
+    to left,
+    var(--primary-color) 20%,
+    var(--primary-color) 50%,
+    var(--primary-color-light) 100%
+  );
+  border-radius: 4px;
+  background-size: 200%;
+  transition: 0.5s;
+  background-position: right center;
+
+  &:hover {
+    background-position: initial;
+  }
+}

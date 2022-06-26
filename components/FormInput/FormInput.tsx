@@ -8,8 +8,8 @@ import { DesktopDatePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import {
   CARD_INPUT_MAX_LENGTH,
   CVV_INPUT_MAX_LENGTH,
-} from '../../pages/constants';
-import { getLabels } from '../../pages/utils';
+} from '../../lib/constants';
+import { getLabels } from '../../lib/utils';
 
 import s from './FormInput.module.scss';
 
